@@ -1,0 +1,12 @@
+<svg id="icon-page-top.svg" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="長方形_10" data-name="長方形 10" class="cls-1" d="M1537,3123h16v0.87h-16V3123Z" transform="translate(-1537 -3123)"/>
+  <path id="シェイプ_3" data-name="シェイプ 3" class="cls-1" d="M1537.01,3134.19l1.13,0.87,6.1-5.57V3139h1.53v-9.33l6.1,5.43,1.12-.88-8.11-7.23Z" transform="translate(-1537 -3123)"/>
+</svg>
