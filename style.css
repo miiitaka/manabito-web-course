@@ -10,17 +10,17 @@ header h1 {
   width: 90px;
 }
 
-header nav {
+.global-nav {
   box-sizing: border-box;
   padding-left: 80px;
   width: 670px;
 }
 
-header .side-parts {
+.side-parts {
   width: 240px;
 }
 
-header nav ul {
+.global-nav ul {
   display: flex;
   font-size: 14px;
   list-style: none;
@@ -28,10 +28,38 @@ header nav ul {
   padding: 0;
 }
 
-header nav ul li {
+.global-nav ul li {
   margin-right: 30px;
 }
 
-header nav ul li:last-child {
+.global-nav ul li:last-child {
   margin-right: 0;
+}
+
+.side-parts-upper {
+  display: flex;
+}
+
+.side-parts-upper nav:nth-child(1)::before {
+  content: url(./images/home/icon-login.svg);
+}
+
+.side-parts-upper nav:nth-child(2)::before {
+  content: url(./images/home/icon-favorite.svg);
+}
+
+.side-parts-upper nav:nth-child(3)::before {
+  content: url(./images/home/icon-cart.svg);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #333;
+}
+
+a:hover {
+  text-decoration: underline;
 }
