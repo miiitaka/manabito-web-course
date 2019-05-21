@@ -4,16 +4,28 @@
     <meta charset="UTF-8">
     <title>タイトル</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <header>
       <h1>
-        <img src="images/home/logo.png" width="88" height="46" alt="ロゴ画像">
+        <img id="logo" src="images/home/logo.png" width="88" height="46" alt="ロゴ画像">
       </h1>
       <nav class="global-nav">
         <ul>
           <li><a href="">NEW ITEM</a></li>
-          <li><a href="">CATEGORY</a></li>
+          <li>
+            <a id="category" href="">CATEGORY</a>
+            <div id="sub_category" class="sub-category">
+              <ul>
+                <li><a href="">ピアス</a></li>
+                <li><a href="">イアリング</a></li>
+                <li><a href="">その他</a></li>
+              </ul>
+              <nav><a href="">全てのアイテム</a></nav>
+            </div>
+          </li>
           <li><a href="">ABOUT&nbsp;US</a></li>
           <li><a href="">GUIDE</a></li>
         </ul>
@@ -43,8 +55,3 @@
     </footer>
   </body>
 </html>
-
-
-
-
-
