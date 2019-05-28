@@ -36,8 +36,18 @@ header h1 {
   margin-right: 0;
 }
 
+.category {
+  position: relative;
+}
+
 .sub-category {
   display: none;
+  position: absolute;
+  width: 120px;
+}
+
+.sub-category ul {
+  display: block;
 }
 
 .side-parts-upper {

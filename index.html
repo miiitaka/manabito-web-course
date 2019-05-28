@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <title>タイトル</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
     <script src="script.js"></script>
   </head>
   <body>
@@ -15,8 +17,8 @@
       <nav class="global-nav">
         <ul>
           <li><a href="">NEW ITEM</a></li>
-          <li>
-            <a id="category" href="">CATEGORY</a>
+          <li id="category" class="category">
+            <a href="">CATEGORY</a>
             <div id="sub_category" class="sub-category">
               <ul>
                 <li><a href="">ピアス</a></li>
@@ -43,7 +45,11 @@
     </header>
 
     <div>
-      スライドショー領域
+      <ul id="slideshow">
+        <li><img src="images/home/mv-01.jpg" width="1000" height="460" alt="スライドショー1"></li>
+        <li><img src="images/home/mv-02.jpg" width="1000" height="460" alt="スライドショー2"></li>
+        <li><img src="images/home/mv-03.jpg" width="1000" height="460" alt="スライドショー3"></li>
+      </ul>
     </div>
 
     <main>

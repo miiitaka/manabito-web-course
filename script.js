@@ -1,8 +1,13 @@
 $(function() {
   $("#category").on("mouseover", function() {
-    $("#sub_category").show();
+    // サブメニューを開く
+    //$("#sub_category").show();
+    $("#sub_category").stop().slideDown();
   });
   $("#category").on("mouseout", function() {
-    $("#sub_category").hide();
+    // サブメニューを閉じる
+    //$("#sub_category").hide();
+    $("#sub_category").stop().slideUp();
   });
+  $("#slideshow").bxSlider();
 });
