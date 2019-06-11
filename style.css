@@ -1,3 +1,22 @@
+/* Start Reset CSS */
+ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+/* End Reset CSS */
+
+html {
+  font-size: 62.5%;
+}
+
 header {
   align-items: center;
   display: flex;
@@ -22,10 +41,7 @@ header h1 {
 
 .global-nav ul {
   display: flex;
-  font-size: 14px;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+  font-size: 1.4rem;
 }
 
 .global-nav ul li {
@@ -66,10 +82,6 @@ header h1 {
   content: url(./images/home/icon-cart.svg);
 }
 
-a {
-  text-decoration: none;
-}
-
 a:link {
   color: #333;
 }
@@ -84,8 +96,15 @@ a:hover {
   width: 1000px;
 }
 
-.l-slideshow {
-  
+.l-basic h2 {
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.l-basic h2 span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
 }
 
 .bx-wrapper {
@@ -95,12 +114,6 @@ a:hover {
 .l-news {
   border: solid 1px #eee;
   padding: 30px;
-}
-
-.l-news ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .l-news li {
@@ -115,3 +128,26 @@ a:hover {
   display: inline-block;
   margin-right: 50px;
 }
+
+.l-new-item li {
+  width: 220px;
+}
+
+.l-new-item figcaption {
+  font-size: 1.4rem;
+}
+
+.l-new-item li span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+}
+
+
+
+
+
+
+
