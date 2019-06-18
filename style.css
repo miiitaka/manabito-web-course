@@ -129,15 +129,25 @@ a:hover {
   margin-right: 50px;
 }
 
-.l-new-item li {
+.new-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+}
+
+.new-item li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
   width: 220px;
 }
 
-.l-new-item figcaption {
+.new-item li figcaption {
   font-size: 1.4rem;
 }
 
-.l-new-item li span {
+.new-item li span {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
@@ -145,9 +155,29 @@ a:hover {
   text-align: center;
 }
 
+.new-item li span::before {
+  content: "￥";
+}
 
+.l-view-all {
+  border: solid 1px #333;
+  display: block;
+  height: 50px;
+  margin: 0 auto;
+  width: 260px;
+}
 
+.l-view-all a {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
 
-
-
-
+.l-view-all a:hover {
+  background-color: #443c3a;
+  color: #fff;
+  text-decoration: none;
+}
