@@ -168,16 +168,24 @@ a:hover {
 }
 
 .l-view-all a {
+  background-color: #fff;
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
   height: 50px;
   line-height: 50px;
+  padding: 0 10px;
   text-align: center;
+  transition: all .3s ease 0s;
 }
 
 .l-view-all a:hover {
   background-color: #443c3a;
   color: #fff;
   text-decoration: none;
+}
+
+.l-view-all a::after {
+  content: ">";
+  float: right;
 }
