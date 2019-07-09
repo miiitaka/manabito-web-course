@@ -135,7 +135,7 @@ a:hover {
 .new-item {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap; 
+  flex-wrap: wrap;
 }
 
 .new-item li {
@@ -285,4 +285,28 @@ a:hover {
 .l-view-all a::after {
   content: ">";
   float: right;
+}
+
+footer {
+  background-color: #726151;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 30px 0;
+}
+
+.l-footer {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.l-footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.l-footer-title {
+  border-left: solid 6px #fff;
+  display: block;
+  margin-bottom: 24px;
+  padding-left: 6px;
 }
