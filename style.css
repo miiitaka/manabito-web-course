@@ -91,13 +91,16 @@ a:hover {
 }
 
 .l-basic {
+  border-bottom: solid 1px #eee;
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 80px 0;
   width: 1000px;
 }
 
 .l-basic h2 {
   font-size: 1.8rem;
+  margin: 0 0 30px;
   text-align: center;
 }
 
@@ -156,6 +159,100 @@ a:hover {
 }
 
 .new-item li span::before {
+  content: "￥";
+}
+
+.pickup-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pickup-item li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 180px;
+}
+
+.pickup-item li figcaption {
+  font-size: 1.4rem;
+}
+
+.pickup-item li span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.pickup-item li span::before {
+  content: "￥";
+}
+
+.ranking-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ranking-item li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  width: 180px;
+}
+
+.ranking-item li figure {
+  position: relative;
+}
+
+.ranking-item li figure .ranking-num {
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.2rem;
+  height: 26px;
+  left: 10px;
+  line-height: 26px;
+  position: absolute;
+  text-align: center;
+  top: 10px;
+  width: 26px;
+}
+
+.ranking-item li:nth-child(1) figure .ranking-num {
+  background-color: #eccc00;
+}
+
+.ranking-item li:nth-child(2) figure .ranking-num {
+  background-color: #867071;
+}
+
+.ranking-item li:nth-child(3) figure .ranking-num {
+  background-color: #97680b;
+}
+
+.ranking-item li:nth-child(4) figure .ranking-num,
+.ranking-item li:nth-child(5) figure .ranking-num {
+  background-color: #575757;
+}
+
+.ranking-item li figcaption {
+  font-size: 1.4rem;
+}
+
+.ranking-item li .price {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 8px;
+  text-align: center;
+}
+
+.ranking-item li .price::before {
   content: "￥";
 }
 
