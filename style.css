@@ -1,5 +1,5 @@
 /* Start Reset CSS */
-ul, figure {
+body, ul, figure {
   margin: 0;
   padding: 0;
 }
@@ -287,6 +287,11 @@ a:hover {
   float: right;
 }
 
+.l-banner ul {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer {
   background-color: #726151;
   color: #fff;
@@ -302,11 +307,61 @@ footer {
 .l-footer-nav {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 60px;
 }
 
 .l-footer-title {
   border-left: solid 6px #fff;
   display: block;
+  font-size: 1.4rem;
   margin-bottom: 24px;
   padding-left: 6px;
 }
+
+.l-footer-address {
+  background-color: #908070;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.l-footer-address div:first-child {
+  font-size: 1.2rem;
+  padding: 20px;
+  width: 400px;
+}
+
+.l-footer-address strong {
+  display: block;
+  font-size: 2rem;
+  letter-spacing: .2rem;
+  margin-bottom: 14px;
+}
+
+.l-footer-address address {
+  font-style: normal;
+}
+
+.l-footer-address a {
+  color: #fff;
+}
+
+.view-map a {
+  border: solid 1px #fff;
+  display: block;
+  font-size: 1.6rem;
+  height: 40px;
+  line-height: 40px;
+  margin: 40px auto 0;
+  text-align: center;
+  width: 280px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+
+
+
+
