@@ -399,6 +399,10 @@ footer {
   width: 770px;
 }
 
+.l-sidenavi-brand {
+  margin-bottom: 30px;
+}
+
 .l-sidenavi-brand strong {
   border-bottom: solid 1px #eee;
   display: block;
@@ -414,5 +418,63 @@ footer {
 
 .l-sidenavi-brand li {
   border-bottom: solid 1px #eee;
+  font-size: 1.2rem;
   padding: 20px 0;
+}
+
+.l-sidenavi-category {
+  margin-bottom: 10px;
+}
+
+.l-sidenavi-category strong {
+  border-bottom: solid 1px #eee;
+  display: block;
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+}
+
+.l-sidenavi-category ul {
+  font-size: 1.4rem;
+  list-style: none;
+  padding-left: 0;
+}
+
+.l-sidenavi-category li {
+  border-bottom: solid 1px #eee;
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+
+.l-sidenavi-category li::before {
+  content: "・";
+}
+
+.l-sidenavi-category li::after {
+  content: ">";
+  float: right;
+}
+
+.l-sidenavi-banner {
+  margin-bottom: 20px;
+}
+
+.l-category-main-view {
+  margin: 0 0 30px;
+}
+
+.l-category h1 {
+  font-size: 1.8rem;
+  margin: 0 0 20px;
+}
+
+.l-category-description {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin: 0 0 60px;
+}
+
+.l-category-product-count {
+  display: block;
+  font-size: 1.4rem;
+  margin: 0 0 30px;
 }
