@@ -387,7 +387,7 @@ footer {
 .l-wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 40px auto 0;
+  margin: 40px auto 80px;
   width: 1000px;
 }
 
@@ -559,8 +559,28 @@ footer {
   text-decoration: none;
 }
 
+.l-checked-items {
+  margin: 0 auto;
+  width: 1000px;
+}
 
+.l-checked-items h2 {
+  font-size: 1.8rem;
+  margin: 0 0 30px;
+  text-align: center;
+}
 
+.l-checked-items h2 span {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: normal;
+}
 
-
-
+.nav-top {
+  background: #726151;
+  bottom: 90px;
+  height: 50px;
+  position: fixed;
+  right: 80px;
+  width: 50px;
+}
