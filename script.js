@@ -22,8 +22,15 @@ $(function() {
       slideMargin: 16,
       slideWidth: 96
     });
+    $("#detail_img_sub").on("mouseover", "li", function(){
+      var subImgSrc = $(this).find("img").attr("src");
+      // $("#detail_img_main").attr("src", subImgSrc);
+      $("#detail_img_main").fadeOut(100, function() {
+        $(this).attr("src", subImgSrc).fadeIn(100);
+      });
+    });
   });
   $("#nav_top").on("click", function() {
-    alert("クリックされたー＼(^o^)／");
+    $("html, body").animate({scrollTop: 0}, 500);
   });
 });
