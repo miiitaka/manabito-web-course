@@ -1,0 +1,38 @@
+header,
+.l-basic,
+.l-footer,
+.breadcrumb,
+.l-wrapper,
+.l-checked-items,
+.global-nav,
+.side-parts,
+.l-footer-address div:first-child {
+  width: 100%
+}
+
+header,
+.global-nav ul,
+.side-parts-upper {
+  display: block;
+}
+
+.l-banner ul {
+  justify-content: center;
+}
+
+.l-banner img {
+  max-width: 100%;
+}
+
+.l-footer-nav {
+  display: block;
+  text-align: center;
+}
+
+.l-footer-address {
+  display: block;
+}
+
+.l-footer-address iframe {
+  width: 100%;
+}
