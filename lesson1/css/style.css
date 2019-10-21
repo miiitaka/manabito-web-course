@@ -1,7 +1,12 @@
-﻿@charset "utf-8";
+﻿/* @charset "utf-8"; */
 
 /* 基本レイアウト ここから↓ */
-
+body {
+  /* background-image: url(../images/bg.jpg);
+  background-repeat: repeat-x;
+  background-position: center top; */
+  background: url(../images/bg.jpg) repeat-x center top;
+}
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
