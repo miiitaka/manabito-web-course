@@ -6,6 +6,84 @@ body {
   background-repeat: repeat-x;
   background-position: center top; */
   background: url(../images/bg.jpg) repeat-x center top;
+  color: #666666;
+}
+
+header, nav, #path, #contents, footer {
+  /* margin: 0 auto 0 auto;
+  margin: 0 auto 0; */
+  margin: 0 auto;
+  /* margin-top: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto; */
+  width: 860px;
+}
+
+header h1 {
+  margin: 0 0 26px;
+  padding-top: 18px;
+  text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0 0 20px;
+  overflow: hidden;
+  padding-left: 0;
+}
+
+nav ul li {
+  float: left;
+  width: 215px;
+}
+
+nav ul li a {
+  display: block;
+  height: 0;
+  overflow: hidden;
+  padding-top: 60px;
+}
+
+nav ul li#nav_about a {
+  background-image: url(../images/nav1.png);
+}
+
+nav ul li#nav_guide a {
+  background-image: url(../images/nav2.png);
+}
+
+nav ul li#nav_animals a {
+  background-image: url(../images/nav3.png);
+}
+
+nav ul li#nav_contact a {
+  background-image: url(../images/nav4.png);
+}
+
+#main {
+  background-color: #ffffff;
+  float: left;
+  padding: 20px;
+  width: 550px;
+}
+
+#sub {
+  float: right;
+  width: 240px;
+}
+
+footer {
+  padding-top: 10px;
+}
+
+#main h1 {
+  background-image: url(../images/bg_h1_left.png), url(../images/bg_h1_bottom.gif);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, repeat-x;
+  font-size: 180%;
+  margin-bottom: 30px;
+  padding: 0 40px 20px 10px;
 }
 /* 基本レイアウト ここまで↑ */
 
