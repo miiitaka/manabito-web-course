@@ -109,11 +109,22 @@ nav ul li a:hover {
 /* トップページ ここまで↑ */
 
 /* 「動物園について」ページ ここから↓ */
-
+.about_area {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.about_area:last-child {
+  margin-bottom: 0;
+}
 /* 「動物園について」ページ ここまで↑ */
 
 /* 「ガイドのご案内」ページ ここから↓ */
-
+table thead tr th {
+  background-color: #ffdd63;
+}
+table tbody tr:nth-child(even) td {
+  background-color: #eef8fa;
+}
 /* 「ガイドのご案内」ページ ここまで↑ */
 
 /* 「人気の動物たち」ページ ここから↓ */
