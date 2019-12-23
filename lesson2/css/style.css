@@ -1,7 +1,26 @@
 ﻿@charset "utf-8";
 
 /* 基本レイアウト ここから↓ */
-
+body {
+  line-height: 1.4em;
+}
+header,
+.global-menu,
+.breadcrumb,
+.contents,
+footer {
+  margin: 0 auto;
+  width: 830px;
+}
+.global-menu ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0;
+}
+.global-menu ul li {
+  width: 200px;
+}
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
