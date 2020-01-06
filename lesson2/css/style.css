@@ -21,6 +21,37 @@ footer {
 .global-menu ul li {
   width: 200px;
 }
+.global-menu ul li a {
+  border: solid 5px #efefef;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #333;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  height: 70px;
+  letter-spacing: 4px;
+  line-height: 65px;
+  text-align: center;
+  text-decoration: none;
+}
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+main {
+  width: 570px;
+}
+.sub {
+  width: 220px;
+}
+main h1 {
+  color: #fff;
+  font-size: 180%;
+  margin: 0 0 30px;
+  padding: 30px 0;
+  text-align: center;
+}
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
