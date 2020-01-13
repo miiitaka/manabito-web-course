@@ -35,6 +35,13 @@ footer {
   text-align: center;
   text-decoration: none;
 }
+.global-menu ul li a:hover {
+  background: #3198d6;
+  color: #fff;
+}
+.breadcrumb ol li:not(:last-child)::after {
+  content: ">";
+}
 .contents {
   display: flex;
   justify-content: space-between;
@@ -46,6 +53,9 @@ main {
   width: 220px;
 }
 main h1 {
+  background-image: url(../images/back_h1_bottom.png), url(../images/back_h1_top.png);
+  background-position: left bottom, left top;
+  background-repeat: no-repeat, no-repeat;
   color: #fff;
   font-size: 180%;
   margin: 0 0 30px;
