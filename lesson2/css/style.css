@@ -65,15 +65,33 @@ main h1 {
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
-
+.topics ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+.topics ul li {
+  border-bottom: 1px dotted #333;
+  margin-top: 20px;
+  padding: 0 10px 20px 160px;
+  text-indent: -160px;
+}
 /* トップページ ここまで↑ */
 
 /* 「当病院について」ページ ここから↓ */
-
+.h2_group:not(:last-child) {
+  margin-bottom: 20px;
+}
 /* 「当病院について」ページ ここまで↑ */
 
 /* 「診療科のご案内」ページ ここから↓ */
-
+table thead tr {
+  background-color: #f3bf31;
+  color: #333;
+}
+table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 /* 「診療科のご案内」ページ ここまで↑ */
 
 /* 「施設紹介」ページ ここから↓ */
