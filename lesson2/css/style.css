@@ -85,6 +85,9 @@ main h1 {
 /* 「当病院について」ページ ここまで↑ */
 
 /* 「診療科のご案内」ページ ここから↓ */
+.table-title {
+  font-weight: bold;
+}
 table thead tr {
   background-color: #f3bf31;
   color: #333;
@@ -95,7 +98,21 @@ table tbody tr:nth-child(even) {
 /* 「診療科のご案内」ページ ここまで↑ */
 
 /* 「施設紹介」ページ ここから↓ */
-
+.facility-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+.facility-list li {
+  margin: 0 0 20px;
+  width: 178px;
+}
+.facility-list figure {
+  margin: 0;
+}
 /* 「施設紹介」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
