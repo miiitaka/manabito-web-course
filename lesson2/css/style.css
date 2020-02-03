@@ -116,5 +116,9 @@ table tbody tr:nth-child(even) {
 /* 「施設紹介」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
-
+input[type=text],
+input[type=tel],
+textarea {
+  border: solid 1px #666;
+}
 /* 「お問い合わせ」ページ ここまで↑ */
