@@ -12,9 +12,75 @@ body {
   font-size: 1.6rem;
 }
 
+body, a {
+  color: #333;
+}
+
+ol, ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
 header,
 .l-wrapper,
 footer {
   margin: 0 auto;
   width: 840px;
+}
+
+header {
+  margin: 0 auto 20px;
+  padding: 30px 0 0;
+}
+
+.logo {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.nav-global ul {
+  box-shadow: 0 4px 10px 0 #ddd;
+  display: flex;
+}
+
+.nav-global ul li {
+  background: -moz-linear-gradient(top, #fff, #ccc);
+  background: -webkit-linear-gradient(top, #fff, #ccc);
+  background: linear-gradient(to bottom, #fff, #ccc);
+  border: solid 1px #d7d8d9;
+  line-height: 60px;
+  height: 60px;
+  text-align: center;
+  width: 25%;
+}
+
+.nav-global ul li:not(:last-child) {
+  border-right: none;
+}
+
+.nav-global ul li:hover {
+  opacity: .8;
+}
+
+.nav-global ul li a {
+  display: block;
+  text-decoration: none;
+}
+
+.breadcrumb {
+  margin: 0 0 30px;
+}
+
+.breadcrumb ol {
+  display: flex;
+}
+
+.breadcrumb ol li:not(:last-child)::after {
+  content: ">";
+  margin: 0 10px;
 }
