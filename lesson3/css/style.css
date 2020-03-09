@@ -84,3 +84,70 @@ header {
   content: ">";
   margin: 0 10px;
 }
+
+.l-contents-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 60px;
+}
+
+main {
+  width: 610px;
+}
+
+main h1 {
+  border: inset 8px #8d8e8f;
+  font-size: 2.4rem;
+  padding: 16px 0;
+  text-align: center;
+}
+
+.l-side-nav {
+  width: 200px;
+}
+
+.side-banner:not(:last-child) {
+  margin: 0 0 30px;
+}
+
+.side-banner a {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.side-banner a:hover {
+  opacity: .8;
+  text-decoration: underline;
+}
+
+.side-banner a img:not(:last-child) {
+  margin: 0 0 10px;
+}
+
+.pagetop {
+  margin: 0 0 20px;
+  text-align: right;
+}
+
+footer {
+  background: -moz-linear-gradient(top, #fff, #ebedee);
+  background: -webkit-linear-gradient(top, #fff, #ebedee);
+  background: linear-gradient(to bottom, #fff, #ebedee);
+  background: #dedede;
+  border: solid 1px #f1f2f4;
+  box-shadow: 0 0 10px 2px #fff inset;
+  font-size: 1.4rem;
+  padding: 20px 0 10px;
+  text-align: center;
+}
+
+.footer-address {
+  font-style: normal;
+  margin: 0 0 6px;
+}
+
+.copyright {
+  font-size: 1.4rem;
+}
