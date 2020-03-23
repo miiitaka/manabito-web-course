@@ -151,3 +151,33 @@ footer {
 .copyright {
   font-size: 1.4rem;
 }
+
+main h2 {
+  background: url(../images/h2.gif) no-repeat left center;
+  font-size: 2.2rem;
+  margin: 0 0 30px;
+  padding: 0 0 0 20px;
+}
+
+.topics-list li {
+  border-bottom: dotted 1px #aeafb0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.4rem;
+  padding: 0 0 26px;
+}
+
+.topics-list li:not(:last-child) {
+  margin: 0 0 24px;
+}
+
+.topics-list li time {
+  display: block;
+  font-weight: bold;
+  width: 130px;
+}
+
+.topics-list li span {
+  display: block;
+  width: 460px;
+}

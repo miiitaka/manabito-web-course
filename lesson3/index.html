@@ -3,8 +3,12 @@
 <head>
   <meta charset="utf-8">
   <title>日本の景色写真展</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <script src="js/slide.js"></script>
 </head>
 <body>
   <header>
@@ -21,15 +25,22 @@
     </nav>
   </header>
   <div class="l-wrapper">
-    <nav class="breadcrumb">
-      <ol>
-        <li><a href="index.html">ホーム</a></li>
-        <li>展覧会について</li>
-      </ol>
-    </nav>
+    <div class="slideshow" id="slideshow">
+      <ul>
+        <li><img src="images/pickup1.jpg" width="840" height="404" alt="スライド1"></li>
+        <li><img src="images/pickup2.jpg" width="840" height="404" alt="スライド2"></li>
+        <li><img src="images/pickup3.jpg" width="840" height="404" alt="スライド3"></li>
+      </ul>
+    </div>
     <div class="l-contents-wrapper">
       <main>
-        <h1>展覧会について</h1>
+        <h2>トピックス</h2>
+        <ol class="topics-list">
+          <li><time datetime="2015-09-20">2015年09月20日</time><span class="topics-description">総入場者数が1万人を突破いたしました。</span></li>
+          <li><time datetime="2015-09-18">2015年09月18日</time><span class="topics-description">大阪会場で展覧会がスタートいたしました。たくさんの皆様のご来場をお待ちしております。<span></li>
+          <li><time datetime="2015-09-13">2015年09月13日</time><span class="topics-description">9月下旬に大阪会場で写真家5名によるギャラリートークを開催いたします。詳しい日程は決まり次第お知らせいたします。</span></li>
+          <li><time datetime="2015-09-10">2015年09月10日</time><span class="topics-description">東京会場は終了いたしました。たくさんの皆様のご来場ありがとうございました。</span></li>
+        </ol>
       </main>
       <div class="l-side-nav">
         <div class="side-banner">
