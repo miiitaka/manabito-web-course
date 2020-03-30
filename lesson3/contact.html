@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="utf-8">
-  <title>日本の景色写真展</title>
+  <title>前売り券申し込み</title>
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,12 +24,45 @@
     <nav class="breadcrumb">
       <ol>
         <li><a href="index.html">ホーム</a></li>
-        <li>展覧会について</li>
+        <li>前売り券申し込み</li>
       </ol>
     </nav>
     <div class="l-contents-wrapper">
       <main>
-        <h1>展覧会について</h1>
+        <h1>前売り券申し込み</h1>
+        <p class="contact-procedure">各会場の前売り券をこちらよりお申し込みいただけます。下記の手順をよく読んでからお申し込みください。</p>
+        <ol class="contact-procedure-list">
+          <li>「お名前」、「メールアドレス」を記入し、「ご希望会場」を選択してお申し込みください。</li>
+          <li>お申し込み後、メールが送信され、前売り券の番号が発行されます。</li>
+          <li>当日、会場の受付で前売り券の番号をご提示いただき、料金をお支払いください。</li>
+        </ol>
+        <form method="get" action="">
+          <table class="contact-form">
+            <tr>
+              <th><label for="name">お名前</label></th>
+              <td><input id="name" type="text" name="name" required></td>
+            </tr>
+            <tr>
+              <th><label for="email">メールアドレス</label></th>
+              <td><input id="email" type="email" name="email" required></td>
+            </tr>
+            <tr>
+              <th><label for="place">ご希望会場</label></th>
+              <td>
+                <select id="place" name="place">
+                  <option value="福岡">福岡</option>
+                  <option value="大阪">大阪</option>
+                  <option value="東京">東京</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <th><label for="other">備考</label></th>
+              <td><textarea id="other" name="other"></textarea></td>
+            </tr>
+          </table>
+          <div class="contact-form-submit"><input type="submit" value="申し込み内容の確認"></div>
+        </form>
       </main>
       <div class="l-side-nav">
         <div class="side-banner">

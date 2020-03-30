@@ -98,6 +98,7 @@ main {
 main h1 {
   border: inset 8px #8d8e8f;
   font-size: 2.4rem;
+  margin: 0 0 40px;
   padding: 16px 0;
   text-align: center;
 }
@@ -180,4 +181,18 @@ main h2 {
 .topics-list li span {
   display: block;
   width: 460px;
+}
+
+.contact-procedure {
+  margin: 0 0 30px;
+}
+
+.contact-procedure-list {
+  list-style: decimal;
+  margin: 0 0 20px;
+  padding: 0 0 0 40px;
+}
+
+.contact-procedure-list li:not(:last-child) {
+  margin: 0 0 10px;
 }
