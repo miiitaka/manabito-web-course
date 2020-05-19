@@ -45,15 +45,48 @@ nav ul li#nav_about a {
 }
 
 nav ul li#nav_guide a {
-  background: url(../images/nav2.png);
+  background-image: url(../images/nav2.png);
 }
 
 nav ul li#nav_animals a {
-  background: url(../images/nav3.png);
+  background-image: url(../images/nav3.png);
 }
 
 nav ul li#nav_contact a {
-  background: url(../images/nav4.png);
+  background-image: url(../images/nav4.png);
+}
+
+#main {
+  background-color: #fff;
+  float: left;
+  padding: 20px;
+  width: 550px;
+}
+
+#sub {
+  float: right;
+  width: 240px;
+}
+
+footer {
+  padding: 10px 0 0;
+}
+
+#main h1 {
+  background-image: url(../images/bg_h1_left.png), url(../images/bg_h1_bottom.gif);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat, repeat-x;
+  font-size: 180%;
+  margin: 0 0 30px;
+  padding: 0 40px 20px 10px;
+}
+
+#about #nav_about a,
+#guide #nav_guide a,
+#animals #nav_animals a,
+#contact #nav_contact a,
+nav ul li a:hover {
+  background-position: 0 -60px;
 }
 
 /* 基本レイアウト ここまで↑ */
