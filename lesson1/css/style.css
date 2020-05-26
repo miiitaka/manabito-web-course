@@ -92,7 +92,16 @@ nav ul li a:hover {
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
+#news ul {
+  list-style: none;
+  padding: 0;
+}
 
+#news ul li {
+  border-bottom: dotted 1px #fb484e; /* 点線 */
+  padding: 20px 0 20px 160px;
+  text-indent: -160px;
+}
 /* トップページ ここまで↑ */
 
 /* 「動物園について」ページ ここから↓ */
