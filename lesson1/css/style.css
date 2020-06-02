@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li#nav_about a {
-  background: url(../images/nav1.png);
+  background-image: url(../images/nav1.png);
 }
 
 nav ul li#nav_guide a {
@@ -105,7 +105,14 @@ nav ul li a:hover {
 /* トップページ ここまで↑ */
 
 /* 「動物園について」ページ ここから↓ */
+.about_area {
+  margin: 0 0 30px;
+  overflow: hidden;
+}
 
+.about_area:last-child {
+  margin: 0;
+}
 /* 「動物園について」ページ ここまで↑ */
 
 /* 「ガイドのご案内」ページ ここから↓ */
