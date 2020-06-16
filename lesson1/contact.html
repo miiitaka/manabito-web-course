@@ -38,15 +38,27 @@
           <li>必要事項を記入し、「確認する」をクリックしてください。</li>
           <li>ご記入いただいた個人情報は、お問い合わせの回答以外には使用致しません。</li>
         </ul>
-        <form action="#">
-          <p>お名前（必須）</p>
-          <p>メールアドレス（必須）</p>
+        <form action="#" method="post">
+          <p>
+            <label for="name">お名前（必須）</label><br>
+            <input id="name" type="text" name="name" required placeholder="まなびと 太郎">
+          </p>
+          <p>
+            <label for="mail">メールアドレス（必須）</label><br>
+            <input id="mail" type="email" name="mail" required placeholder="manabito@example.com">
+          </p>
           <p>
             お問い合わせ種類<br>
-            環境学習に関すること
-            その他
+            <input id="kind0" type="radio" name="kind" value="0"><label for="kind0">環境学習に関すること</label>
+            <input id="kind1" type="radio" name="kind" value="1"><label for="kind1">その他</label>
           </p>
-          <p>お問い合わせ内容</p>
+          <p>
+            <label for="message">お問い合わせ内容</label><br>
+            <textarea id="message" name="message"></textarea>
+          </p>
+          <p>
+            <input type="submit" value="確認する">
+          </p>
         </form>
       </article>
     </div>

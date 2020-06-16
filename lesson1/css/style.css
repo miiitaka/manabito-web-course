@@ -139,5 +139,15 @@ table tbody tr:nth-child(even) td {
 /* 「人気の動物たち」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
+input[type="text"] {
+  width: 200px;
+}
 
+input[type="email"] {
+  width: 300px;
+}
+
+textarea {
+  resize: none;
+}
 /* 「お問い合わせ」ページ ここまで↑ */
