@@ -26,17 +26,15 @@ header .logo {
 	text-align: left;
 }
 .breadcrumb ol {
+  display: flex;
 	list-style-type: none;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding: 0;
 }
-.breadcrumb ol li {
-	display: inline;
-	margin-right: 5px;
-}
-.breadcrumb ol li a {
-	padding-right: 10px;
+.breadcrumb ol li:not(:last-child)::after {
+	content: ">";
+  margin: 0 10px;
 }
 .contents {
 	overflow: hidden;

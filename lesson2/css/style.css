@@ -26,7 +26,34 @@ footer {
 }
 
 .nav-global ul li a {
+  border: solid 4px #F5F5F5;
+  border-radius: 6px;
+  box-sizing: border-box;
   display: block;
+  font-size: 16px;
+  height: 70px;
+  letter-spacing: 2px;
+  line-height: 62px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nav-global ul li a:hover {
+  background-color: #36A0E0;
+  color: #fff;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 570px;
+}
+
+.sub {
+  width: 220px;
 }
 /* 基本レイアウト ここまで↑ */
 
