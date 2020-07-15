@@ -13,6 +13,10 @@ footer {
   width: 830px;
 }
 
+header {
+  margin: 0 auto 15px;
+}
+
 .nav-global ul {
   display: flex;
   justify-content: space-between;
@@ -54,6 +58,32 @@ main {
 
 .sub {
   width: 220px;
+}
+
+.side-nav a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pagetop {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer .info-group a {
+  color: #fff;
+}
+
+main h1 {
+  background-image: url(../images/back_h1_bottom.png), url(../images/back_h1_top.png);
+  background-position: left bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+  color: #fff;
+  font-size: 180%;
+  margin: 0 0 30px;
+  padding: 30px 0;
+  text-align: center;
 }
 /* 基本レイアウト ここまで↑ */
 

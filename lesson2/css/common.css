@@ -28,8 +28,7 @@ header .logo {
 .breadcrumb ol {
   display: flex;
 	list-style-type: none;
-	margin-top: 15px;
-	margin-bottom: 15px;
+	margin: 0 0 15px;
 	padding: 0;
 }
 .breadcrumb ol li:not(:last-child)::after {
@@ -84,20 +83,20 @@ footer .info-group .copyright small {
 	color: #333333;
 	font-size: 140%;
 }
-#slider {
+.slider {
 	width: 830px;
 	height: 355px;
 	margin: 0 auto 30px auto;
 	overflow: hidden;
 }
-#slider ul {
+.slider ul {
 	list-style-type: none;
 	width: 100%;
 	margin: 0;
 	padding: 0;
 	position: relative;
 }
-#slider ul li {
+.slider ul li {
 	width: 100%;
 }
 #topics {
