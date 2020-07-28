@@ -1,5 +1,13 @@
 $(function() {
-  $('#pagetop a').on('click', function() {
-    $('html, body').animate({scrollTop: 0}, 1000);
+  'use strict';
+  
+  $('#slider ul').bxSlider({
+    pager: false,
+    controls: false,
+    auto: true,
+    touchEnabled: false,
+    mode: 'fade',
+    speed: 1000,
+    pause: 6000
   });
 });
