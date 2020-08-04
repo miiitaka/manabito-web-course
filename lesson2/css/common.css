@@ -73,7 +73,7 @@ footer .info-group .copyright {
 footer .info-group .copyright small {
 	font-size: 100%;
 }
-#main h2 {
+main h2 {
 	margin-top: 0;
 	margin-bottom: 20px;
 	padding: 5px 10px 15px 10px;
@@ -93,12 +93,12 @@ footer .info-group .copyright small {
 	margin: 0;
 	padding: 0;
 }
-#topics {
+.topics {
 	margin-bottom: 20px;
 }
-#topics ul li time {
-	display: inline-block;
-	width: 160px;
+.topics ol li time {
+	display: block;
+	width: 120px;
 	color: #36a0e0;
 	font-weight: bold;
 	text-indent: 0;
