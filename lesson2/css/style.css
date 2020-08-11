@@ -109,11 +109,29 @@ main h1 {
 /* トップページ ここまで↑ */
 
 /* 「当病院について」ページ ここから↓ */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
 
+/* .h2-group {
+  margin: 0 0 20px;
+}
+
+.h2-group:last-child {
+  margin: 0;
+} */
+
+.h2-group:not(:last-child) {
+  margin: 0 0 20px;
+}
 /* 「当病院について」ページ ここまで↑ */
 
 /* 「診療科のご案内」ページ ここから↓ */
-
+.service-table caption span {
+  font-weight: bold;
+}
 /* 「診療科のご案内」ページ ここまで↑ */
 
 /* 「施設紹介」ページ ここから↓ */
