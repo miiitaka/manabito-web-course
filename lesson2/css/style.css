@@ -129,13 +129,46 @@ main h1 {
 /* 「当病院について」ページ ここまで↑ */
 
 /* 「診療科のご案内」ページ ここから↓ */
+.service-table caption {
+  margin: 0 0 30px;
+}
+
 .service-table caption span {
   font-weight: bold;
+}
+
+.service-table thead tr {
+  background-color: #f3bf31;
+  color: #333;
+}
+
+.service-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
 }
 /* 「診療科のご案内」ページ ここまで↑ */
 
 /* 「施設紹介」ページ ここから↓ */
+.facility-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
+.facility-group li {
+  margin: 0 0 30px;
+  width: 178px;
+}
+
+.facility-group li:nth-last-child(-n+3) {
+  margin: 0;
+}
+
+.facility-group li figure {
+  margin: 0;
+}
 /* 「施設紹介」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
