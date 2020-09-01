@@ -111,29 +111,29 @@ main h2 {
 	margin: 0 0 10px 20px;
 	float: right;
 }
-table {
+.service-table {
 	width: 566px;
 	margin-bottom: 20px;
 	border-collapse: collapse;
 }
-table caption {
+.service-table caption {
 	overflow: hidden;
 	text-align: left;
 }
-table caption p {
+.service-table caption p {
 	margin-bottom: 30px;
 }
-table th, table td {
+.service-table th, .service-table td {
 	padding: 5px;
 	border: 1px solid #333333;
 }
-table tr th:first-child {
+.service-table tr th:first-child {
 	width: 30%;
 }
-table tr *:last-child {
+.service-table tr *:last-child {
 	width: 28%;
 }
-table tbody tr td:last-child {
+.service-table tbody tr td:last-child {
 	text-align: right;
 }
 .facility_group {
@@ -143,9 +143,6 @@ table tbody tr td:last-child {
 }
 form {
 	margin-bottom: 20px;
-}
-input, textarea {
-	margin-top: 5px;
 }
 input[type="text"] {
 	width: 200px;
