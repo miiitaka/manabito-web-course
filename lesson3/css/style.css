@@ -12,10 +12,94 @@ body {
   font-size: 1.4rem;
 }
 
+body, a {
+  color: #333;
+  text-decoration: none;
+}
+
+h1, h2, p, figure {
+  margin: 0;
+}
+
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 header,
 .eye-catch,
 .contents,
 footer {
   margin: 0 auto;
   width: 840px;
+}
+
+header {
+  margin-bottom: 20px;
+  padding: 30px 0 0;
+}
+
+.logo {
+  margin: 0 0 20px;
+  text-align: center;
+}
+
+.nav-global ul {
+  display: flex;
+}
+
+.nav-global li {
+  width: 25%;
+}
+
+.nav-global a {
+  align-items: center;
+  background-color: #f2f3f4;
+  border: solid 1px #e1e2e3;
+  display: flex;
+  font-size: 1.6rem;
+  justify-content: center;
+  height: 60px;
+  letter-spacing: 2px;
+}
+
+.nav-global li:not(:last-child) a {
+  border-right: none;
+}
+
+.nav-global a:hover {
+  background-color: #f00;
+  color: #fff;
+}
+
+.contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+main {
+  width: 610px;
+}
+
+h1 {
+  background-image: url(../images/h1_top.png), url(../images/h1_bottom.png);
+  background-position: left top, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  font-size: 2.4rem;
+  padding: 30px 0;
+  text-align: center;
+}
+
+aside {
+  width: 200px;
+}
+
+.side-bnr:not(:last-child) {
+  margin: 0 0 30px;
+}
+
+.side-bnr a {
+  display: block;
+  text-align: center;
 }
